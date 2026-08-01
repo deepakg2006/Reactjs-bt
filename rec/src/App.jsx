@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 function App() {
   const[products, setproducts] = useState([]);
   async function fetchproducts() {
-  const data=await fetch("https://backend-tu4t.onrender.com/productget");
+  const data=await fetch("https://backend-tu4t.onrender.com/productget/");
   const response = await data.json();
   setproducts(response)
   }
