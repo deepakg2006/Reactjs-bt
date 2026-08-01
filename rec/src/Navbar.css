@@ -1,0 +1,57 @@
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 12px 40px;
+    border-bottom: 2px solid gold;
+}
+
+/* Brand */
+
+.brand-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+/* Logo */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: white;
+    border: 2px solid gold;
+    padding: 3px;
+}
+
+/* Brand Name */
+
+.brand-link span{
+    color: gold;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
